@@ -57,7 +57,7 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'https://www.linkedin.com/in/jason-klamert-5848b594/',
+    linkedin: 'jason-klamert',
     email: 'jayklamert@gmail.com',
   },
   resume: {
@@ -114,12 +114,12 @@ const CONFIG = {
     },
   ],
   certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
+    // {
+    //   name: 'Lorem ipsum',
+    //   body: 'Lorem ipsum dolor sit amet',
+    //   year: 'March 2022',
+    //   link: 'https://example.com',
+    // },
   ],
   educations: [
     {
@@ -144,7 +144,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'dark',
+    defaultTheme: 'forest',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
