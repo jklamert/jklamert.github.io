@@ -90,6 +90,8 @@ const CONFIG = {
     'Material UI',
     'Python',
     'Typescript',
+     'CICD',
+     'TDD',
   ],
   experiences: [
     {
