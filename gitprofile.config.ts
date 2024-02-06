@@ -37,7 +37,7 @@ const CONFIG = {
           description:
             'FieldLogIQ Classic is an internal hybrid web-mobile application that specializes in natural gas project management.',
           imageUrl:
-            'https://pm.flowgis.com/images/FL_icon_color.png',
+            'https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/b9/4e/19/b94e1981-fd87-ff19-d282-e5ba963aa26c/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/230x0w.webp',
           link: 'https://pm.flowgis.com/',
         },
         {
