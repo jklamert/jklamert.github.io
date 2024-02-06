@@ -32,6 +32,14 @@ const CONFIG = {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
+                {
+          title: 'FlowGIS Mobile',
+          description:
+            "FlowGIS Mobile is a GIS-centric software solution for utilities, municipalities and other organizations, designed to support configurable workflows, streamline maintenance operations and enable data-driven, intelligence-based decisions.",
+          imageUrl:
+            'https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/1b/25/57/1b255719-40f6-4958-8804-c672c4cb5845/AppIcons-1x_U007emarketing-0-7-0-85-220.png/230x0w.webp',
+          link: 'https://apps.apple.com/us/app/flowgis-mobile/id1447533715',
+        },
         {
           title: 'FieldLogIQ Classic',
           description:
