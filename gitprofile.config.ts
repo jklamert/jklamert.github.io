@@ -65,7 +65,7 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'jason-klamert-5848b594',
+    linkedin: 'jason-klamert',
     email: 'jayklamert@gmail.com',
   },
   resume: {
