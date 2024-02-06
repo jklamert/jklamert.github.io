@@ -45,7 +45,7 @@ const CONFIG = {
           description:
             "FieldLogIQ is a B2B SaSS hybrid web-mobile application that specializes in natural gas project management. This brings Magnolia River's natural gas expertise into the software marketplace. The new application features advanced geospatial tooling, GPS integration, geospatial exports, and a rich dashboard for visibility.",
           imageUrl:
-            'https://app.fieldlogiq.com/images/logo.png',
+            'https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e6/93/51/e6935114-000b-8f2b-2f80-72f29f72bc3d/AppIcon-1x_U007emarketing-0-7-0-85-220.png/230x0w.webp',
           link: 'https://app.fieldlogiq.com/',
         },
       ],
