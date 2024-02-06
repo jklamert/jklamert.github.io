@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -33,81 +33,84 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'FieldLogIQ Classic',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'FieldLogIQ Classic is an internal hybrid web-mobile application that specializes in natural gas project management.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://pm.flowgis.com/images/FL_icon_color.png',
+          link: 'https://pm.flowgis.com/',
         },
         {
-          title: 'Project Name',
+          title: 'FieldLogIQ',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'FieldLogIQ is a B2B SaSS hybrid web-mobile application that specializes in natural gas project management. This brings Magnolia River's natural gas expertise into the software marketplace. The new application features advanced geospatial tooling, GPS integration, geospatial exports, and a rich dashboard for visibility.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://app.fieldlogiq.com/images/logo.png',
+          link: 'https://app.fieldlogiq.com/',
         },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Jason Klamert',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    facebook: '',
-    instagram: '',
-    youtube: '', // example: 'pewdiepie'
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
-    telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    linkedin: 'https://www.linkedin.com/in/jason-klamert-5848b594/',
+    email: 'jayklamert@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
     'JavaScript',
     'React.js',
     'Node.js',
-    'Nest.js',
-    'MySQL',
+    'Next.js',
+    'Microsoft SQL Server',
     'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
+    'Kubernetes',
     'CSS',
-    'Antd',
+    'Framework 7',
+    'Capacitor.js',
+    'Cordova',
     'Tailwind',
+    'Material UI',
+    'Python',
+    'Typescript',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Magnolia River Services, Inc.',
+      position: 'Software Developer',
+      from: 'December 2018',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.magnolia-river.com/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Magnolia River Services, Inc.',
+      position: 'Junior Software Developer',
+      from: 'January 2018',
+      to: 'December 2018',
+      companyLink: 'https://www.magnolia-river.com/',
+    },
+    {
+      company: 'Centene',
+      position: 'IT Intern - Web Services',
+      from: 'May 2016',
+      to: 'January 2018',
+      companyLink: 'https://www.centene.com/',
+    },
+    {
+      company: 'Centene',
+      position: 'IT Intern - Web Services',
+      from: 'May 2015',
+      to: 'August 2015',
+      companyLink: 'https://www.centene.com/',
     },
   ],
   certifications: [
@@ -120,23 +123,17 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
+      institution: 'University of Missouri - St. Louis',
+      degree: 'Bachelors of Science in Computer Science',
       from: '2012',
-      to: '2014',
+      to: '2017',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 3, // How many articles to display. Max is 10.
+    // source: 'dev', // medium | dev
+    // username: 'arifszn', // to hide blog section, keep it empty
+    // limit: 3, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
@@ -147,7 +144,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'nord',
+    defaultTheme: 'dark',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -210,11 +207,11 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  // footer: `Made with <a 
+  //     class="text-primary" href="https://github.com/arifszn/gitprofile"
+  //     target="_blank"
+  //     rel="noreferrer"
+  //   >GitProfile</a> and ❤️`,
 
   enablePWA: true,
 };
